@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_957855_0eh5dsmem26c.css">
+  <link rel="stylesheet/less" href="./styles/base.less">
+  <link rel="stylesheet/less" href="./styles/billboards.less">
+  <link rel="stylesheet/less" href="./styles/film_list.less">
+</head>
+
+<body>
+
+  <div class="film-list">
+    <div class="city-fixed">
+      <span>深圳</span>
+      <i class="iconfont icon-xiala"></i>
+    </div>
+
+    <div class="swiper-container billboards">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://static.maizuo.com/v5/upload/69d58c31feb894f3142461b7357ef81c.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://static.maizuo.com/v5/upload/831f44034b9416bf2dd579f0921f676e.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://static.maizuo.com/v5/upload/6a0c5b59de9107732da8edd7a0ed7142.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="tabs-bar-wrapper">
+      <div class="tabs-bar">
+        <ul class="tabs-nav">
+          <li class="active" style="width: 50%;">
+            <span>正在热映</span>
+          </li>
+          <li class="" style="width: 50%;">
+            <span>即将上映</span>
+          </li>
+          <div class="tab-ink-bar-wrapper" style="transform: translate3d(0%, 0px, 0px); width: 50%;">
+            <span class="tab-ink-bar" style="width: 56px;"></span>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div class="film-list-content">
+      <div class="nowPlayingList-wrap">
+        <ul>
+          <li class="item">
+            <a href="#/film/4480">
+              <div class="img">
+                <img src="https://pic.maizuo.com/usr/movie/85f4fc27c6b90d7e84295e115837728b.jpg?x-oss-process=image/quality,Q_70" alt="">
+              </div>
+              <div class="info">
+                <div class="film-name info-col">
+                  <span class="name">老师·好</span>
+                  <span class="item">2D</span>
+                </div>
+                <div class="film-grade info-col" style="visibility: visible;">
+                  <span class="label">观众评分 </span>
+                  <span class="grade">7</span>
+                </div>
+                <div class="film-actors info-col">
+                  <span class="label">主演：于谦  汤梦佳 秦鸣悦  王广源  孙艺杨 </span>
+                </div>
+                <div class="film-detail info-col">
+                  <span class="label">中国大陆 | 100分钟</span>
+                </div>
+              </div>
+              <div class="buy">购票</div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#/film/4480">
+              <div class="img">
+                <img src="https://pic.maizuo.com/usr/movie/85f4fc27c6b90d7e84295e115837728b.jpg?x-oss-process=image/quality,Q_70" alt="">
+              </div>
+              <div class="info">
+                <div class="film-name info-col">
+                  <span class="name">老师·好</span>
+                  <span class="item">2D</span>
+                </div>
+                <div class="film-grade info-col" style="visibility: visible;">
+                  <span class="label">观众评分 </span>
+                  <span class="grade">7</span>
+                </div>
+                <div class="film-actors info-col">
+                  <span class="label">主演：于谦  汤梦佳 秦鸣悦  王广源  孙艺杨 </span>
+                </div>
+                <div class="film-detail info-col">
+                  <span class="label">中国大陆 | 100分钟</span>
+                </div>
+              </div>
+              <div class="buy">购票</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <ul class="nav-bar">
+    <li class="films">
+      <a href="/" class="active">
+        <i class="iconfont icon-films"></i>
+        <span>电影</span>
+      </a>
+    </li>
+    <li class="films">
+      <a href="/cinemas.html">
+        <i class="iconfont icon-cinemas"></i>
+        <span>影院</span>
+      </a>
+    </li>
+    <li class="films">
+      <a href="#/films/nowPlaying">
+        <i class="iconfont icon-sales"></i>
+        <span>特惠</span>
+      </a>
+    </li>
+    <li class="films">
+      <a href="/center.html">
+        <i class="iconfont icon-center"></i>
+        <span>我的</span>
+      </a>
+    </li>
+  </ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+  <script>
+    setTimeout(() => {
+      new Swiper('.swiper-container');
+    }, 100)
+  </script>
+</body>
+
+</html>
